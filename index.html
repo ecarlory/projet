@@ -3,45 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon Site Personnel</title>
+  <title>Carlory Eliantus — Accueil</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Bienvenue sur mon site</h1>
+    <h1>Carlory Eliantus</h1>
+    <p>Directeur • Enseignant • Développeur Web</p>
     <nav>
       <ul>
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#projects">Projets</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="projets.html">Projets</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="about">
-    <h2>À propos de moi</h2>
-    <p>Je suis développeur web passionné par HTML, CSS et JavaScript.</p>
+  <section class="hero">
+    <h2>Bienvenue sur mon site professionnel</h2>
+    <p>Découvrez mon parcours, mes réalisations et mes projets.</p>
   </section>
 
-  <section id="projects">
-    <h2>Projets</h2>
-    <div class="card" id="project1">
-      <h3>Projet 1</h3>
-      <p>Description de mon projet.</p>
-      <button class="toggle-btn">En savoir plus</button>
-      <p class="details hidden">Voici plus de détails sur le projet !</p>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <form id="contactForm">
-      <label for="email">Email :</label>
-      <input type="email" id="email" required>
-      <button type="submit">Envoyer</button>
-    </form>
-  </section>
-
-  <script src="index.js"></script>
+  <footer>
+    <p>&copy; 2025 Carlory Eliantus</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
